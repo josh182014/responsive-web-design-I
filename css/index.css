@@ -300,6 +300,10 @@ footer {
         width: 98%;
     }
 
+    .main-content .top-content .text-content {
+        margin: 10px;
+    }
+
 }
 
 @media(max-width: 500px) {
