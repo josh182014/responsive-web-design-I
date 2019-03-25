@@ -303,17 +303,53 @@ footer {
 }
 
 @media(max-width: 500px) {
+    .container {
+        width: 92%;
+    }
     header nav {
         flex-direction: column;
         align-items: center;
         width: 100%;
+        margin-top: 20px;
     }
     header nav a {
         border-top: 1px solid black;
-        border-bottom: 1px solid black;
-        margin: 10px 0 10px 0;
-        width: 105%;
+        margin: 0;
+        width: 110%;
         text-align: center;
-        padding: 10px;
+        padding: 20px;
     }
+    .lastNav {
+        border-bottom: 1px solid black;
+    }
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .main-content .top-content {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .main-content .bottom-content {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .main-content .top-content .text-content {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .main-content .bottom-content .text-content {
+        margin-top: 20px;
+        margin-bottom: 20px;  
+    }
+    header .logo {
+        margin: 20px 0 0 0;
+    }
+
 }
